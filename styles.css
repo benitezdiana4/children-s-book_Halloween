@@ -1,0 +1,230 @@
+body{
+    margin: 0;
+    font-family: 'Young Serif', serif;
+}
+
+.title_container{
+    background-color: #273132;
+}
+
+.title, .titleauthor{
+    font-family: 'Playpen Sans', cursive;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    margin: 50px auto 0 auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f7c18a;
+    font-size: 32px;
+    font-weight: bolder;
+
+}
+.title{
+top: 40%;
+color: #f7c18e;
+font-size: 48px;
+font-size: larger;
+}
+
+.attribute{
+    color: #f7c18a;
+    font-size: 10px;
+}
+
+.spiderphoto, .catshadowpic, .dedicationphoto{
+    width: 100%;
+    height: 100%;
+}
+
+.titlephoto{
+    text-align: center;
+    position: relative;
+    background-image: url("cover_pic.jpg");
+    background-position: center;
+   height: 100%;
+   width: 100%;
+   opacity: 0.8;
+}
+
+.dedication_container{
+    height: 99vh;
+}
+
+.dedication_sent{
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -800%);
+    color: white;
+    word-spacing: 5px;
+}
+
+
+.second_container{
+    height: 99vh;
+}
+
+.sentence1_2nd{
+    text-align: right;
+    position: relative;
+    left: 8%;
+    bottom: 75%;
+    transform: translate(-30%);
+    word-spacing: 10px;
+    font-size: 28px;
+}
+.third_container{
+    background: linear-gradient(to bottom right, #253569, #614cbf) ;
+    opacity: 85%;
+    height: 99vh;
+    position: relative;
+}
+.third_container > .ghost_trick_treat{
+    opacity: 100%;
+    position: absolute;
+    left: 62%;
+    top: 18%;
+}
+
+.sentences3{
+    bottom: 0%;
+    right: 85%;
+    transform: translate(10%, 60%);
+}
+
+.sentence1_3rd, .sentence2_3rd{
+    bottom: 70%;
+    word-spacing: 5px;
+    text-align: left;
+    right: 85%;
+    font-size: 28px;
+}
+.fourth_container{
+    background: radial-gradient(#ab400c, #320000);
+    height: 100%;
+}
+
+.fourth_container > .deadtree{
+    size: 5px;
+    opacity: 65%;
+    justify-content: space-evenly;
+    object-position: 50% 50%;
+    object-fit: none;
+    right: -10px;
+
+}
+.sentence1_4th{
+    position: relative;
+    color: #f7c18d;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+    word-spacing: 3px;
+    font-size: 28px;
+    transform: translate(10%, -20%);
+    display: flex;
+    vertical-align: middle;
+    left: -10%;
+    top: -60%;
+}
+
+.fifth_container{
+    background: radial-gradient(#7d74a8, #000032);
+    height: 100vh;
+}
+.purplecatbg{
+    width: 600px;
+    margin: 60px;
+    opacity: 90%;
+    bottom: -50%;
+}
+
+.sentence_5th{
+    float: right;
+    color: white;
+    font-size: 28px;
+    display: flex;
+    left: -90%;
+    bottom: 100%;
+    transform: translate(-15%, -190%);
+    justify-content: left;
+    text-align: left;
+}
+
+.sixth_container{
+    height: 100vh;
+    background: radial-gradient(#216974, #748729);
+}
+
+.catpumpkin{
+    align-items: center;
+    right: -50%;
+    transform: translate(60%, 2%);
+}
+.sixthsent{
+    color: black;
+    font-size: 28px;
+    justify-content: center;
+    text-align: center;
+    word-spacing: 5px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.seventh_container{
+    height: 100vh;
+    width: auto;
+}
+
+.catshadowpic{
+    align-items: center;
+    object-fit: cover;
+    position: absolute;
+}
+
+.favday{
+    color: #f7c18a;
+    position: relative;
+    float: left;
+    right: -20%;
+    top: -50%;
+    transform: translate(40%, 80%);
+    font-size: 28px;
+    word-spacing: 5px;
+    padding-top: 50px;
+    text-align: left;
+}
+
+.end_container{
+    color: #f7c18a;
+    position: relative;
+    float: right;
+    font-size: 36px;
+    word-spacing: 5px;
+    text-align: right;
+    padding: 50px;
+    bottom: -75%;
+}
+
+.last_container{
+    text-align: center;
+    font-size: 20px;
+}
+
+.emailbtn, .mailbtn, .twitterbtn{
+    color: black;
+    justify-content: space-evenly;
+}
+
+.emailbtn:hover, .twitterbtn:hover, .mailbtn:hover{
+    color: blue;
+}
+
+.copywright{
+    font-size: 8px;
+}
+
+
